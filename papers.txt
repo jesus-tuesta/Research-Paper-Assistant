@@ -1,0 +1,5 @@
+# arXiv URLs — one per line, lines starting with # are ignored
+https://arxiv.org/pdf/1904.01566.pdf
+https://mbrenndoerfer.com/writing/transaction-costs-market-impact-liquidity-modeling
+https://www.talos.com/insights/execution-insights-through-transaction-cost-analysis-tca-benchmarks-and-slippage
+/mnt/c/Users/jande/OneDrive/Quant Reading/Papers/ToSummarize/Lillo-Imperial-Lecture1.pdf

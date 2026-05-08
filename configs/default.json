@@ -1,0 +1,17 @@
+{
+  "model": "big-pickle",
+  "api_base_url": "https://opencode.ai/zen/v1",
+  "chunk": {
+    "default_chunk_size": 3000,
+    "default_overlap": 500,
+    "chunk_if_longer_than_words": 3000
+  },
+  "summarize": {
+    "temperature": 0.1,
+    "max_tokens": 4000
+  },
+  "synthesize": {
+    "temperature": 0.1,
+    "max_tokens": 8000
+  }
+}

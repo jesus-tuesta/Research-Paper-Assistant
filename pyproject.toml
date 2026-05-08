@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "research-paper-agent"
+version = "0.2.0"
+description = "Python-native research-paper assistant using OpenCode (big-pickle) as the agentic reasoning engine"
+authors = []
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+openai = ">=1.0.0"
+python-dotenv = ">=1.0.0"
+fastapi = ">=0.100.0"
+uvicorn = ">=0.23.0"
+requests = ">=2.28.0"
+PyMuPDF = ">=1.23.0"
+python-docx = ">=1.2.0"
+trafilatura = ">=2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
